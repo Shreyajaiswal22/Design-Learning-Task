@@ -1,0 +1,80 @@
+.nav h4{
+    text-align: center;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px; 
+    
+    
+}
+.nav{
+    margin-top: 20px;
+}
+.main-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.main-heading H1{
+    font-weight: 800;
+}
+.icon{
+    padding-top: 10px;
+    color: #222;
+}
+.carousel-indicators{
+    color: black;
+}
+.box .heading {
+    font-size: 18px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.box .box-owner .owner-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    margin-right: 10px;
+}
+.box .box-owner .owner-img img {
+    max-width: 100%;
+    border-radius: 50%;
+
+}
+.box .box-owner .text{
+    text-decoration: none;
+}
+h2{
+    font-size: 17px;
+}
+p{
+    color: grey;
+}
+
+.box .author{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+.box .heading{
+    font-weight: bold;
+}
+.box .box-heading .category {
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5 {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.footer{
+    margin-bottom: 100px;
+}
