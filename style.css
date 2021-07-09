@@ -1,3 +1,10 @@
+*{box-sizing: border-box; padding:0; margin: 0;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .nav h4{
     text-align: center;
     text-decoration: solid;
@@ -17,7 +24,9 @@
     
 }
 .main-heading H1{
-    font-weight: 800;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
 }
 .icon{
     padding-top: 10px;
@@ -34,6 +43,13 @@ p {
     margin-bottom: 1rem;
 }
 
+.box .image{
+    border-radius: 7px;
+    margin-bottom: 30px;
+    
+
+}
+
 .box .box-owner .owner-img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 45px;
@@ -43,16 +59,33 @@ p {
 .box .box-owner .owner-img img {
     max-width: 100%;
     border-radius: 50%;
+    vertical-align: middle;
 
 }
 .box .box-owner .text{
     text-decoration: none;
+}
+.box .box-owner .strong{
+    color: #000;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.box .box-owner .span{
+    font-size: 13px;
+    color: #888;
+
 }
 h2{
     font-size: 17px;
 }
 p{
     color: grey;
+    margin-top: 0;
+    display: block;
+    font-size: 15px;
 }
 
 .box .author{
@@ -61,13 +94,36 @@ p{
     color: black;
 }
 .box .heading{
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .box .box-heading .category {
     color: #222;
     font-weight: 600;
     text-decoration: none;
+    
+    font-family: 'Poppins', sans-serif;
+}
+    
+.author .strong{
+    color: #000;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+    font-size: 14px;
 
+} 
+.author .span{
+    font-size: 13px;
+    color: #888;
+
+}
+
+
+.box .date{
+    color: #999;
+    font-size: 14px;
 }
 
 
