@@ -1,3 +1,8 @@
+
+
+
+
+
 *{box-sizing: border-box; padding:0; margin: 0;}
 
 body{
@@ -8,7 +13,7 @@ body{
 .nav h4{
     text-align: center;
     text-decoration: solid;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 20px;
     padding-top: 10px; 
     
@@ -26,7 +31,7 @@ body{
 .main-heading H1{
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 .icon{
     padding-top: 10px;
@@ -35,9 +40,74 @@ body{
 .carousel-indicators{
     color: black;
 }
-.box .heading {
-    font-size: 18px;
+.carousel-inner .card{
+    width: auto;  
+    height: 350px;
+    
+
 }
+
+
+.carousel-item .card-title{
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.carousel-item .date{
+    font-size: 14px;
+    color: #888;
+    font-weight: 50;
+}
+
+.carousel-item .card-text{
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.carousel-item  .heading {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin: 20px 30px 10px 30px ;
+}
+.carousel-item .img-fluid{
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+
+.carousel-item .box-owner .owner-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.carousel-item  .box-owner .owner-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+.carousel-item  .box-owner .text{
+    text-decoration: none;
+}
+.carousel-item  .box-owner .strong{
+    color: #000;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.carousel-item  .box-owner .span{
+    font-size: 13px;
+    color: #888;
+
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -81,12 +151,17 @@ p {
 h2{
     font-size: 17px;
 }
-p{
+p{  
+    font-family: Arial, Helvetica, sans-serif;
     color: grey;
     margin-top: 0;
     display: block;
-    font-size: 15px;
+    font-size: 14px;
+    
 }
+
+
+
 
 .box .author{
     text-decoration: none;
